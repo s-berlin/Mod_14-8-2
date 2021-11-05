@@ -72,7 +72,6 @@ void TrieTree::insert(string key)
     node->word = key;
     // помечаем последний узел как лист, т.е. конец слова
     node->isEndOfWord = true;
-    node->path++;// ×åðåç ýòîò óçåë åñòü ïóòü
 }
 
 // Возврашает true если ключ есть в дереве, иначе false 
